@@ -1,0 +1,156 @@
+.logo{
+  width: 200px;
+}
+.fright{
+  float: right;
+}
+.fleft{
+  float: left;
+}
+.clearfix{
+  clear: both;
+}
+body{
+  font-family: 'Lato',sans-serif;
+  background-color: #442D4B;
+  color: white;
+
+}
+header{
+  padding: 40px;
+  height: 40px;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px;
+}
+header ul li a{
+  color:#FFCB59;
+  text-decoration: none;
+}
+.add_movie_form{
+  width: 500px;
+  margin: 0 auto;
+}
+.add_movie_h2{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.divide{
+  display:inline-block;
+  width: 50%;
+  padding-left: 10px;
+}
+.language_div{
+  padding: 0;
+}
+form{
+  white-space: nowrap;
+}
+.add_movie_form label,.add_movie_form input{
+  display: block;
+}
+.add_movie_form input,.add_movie_form textarea,.add_movie_form select{
+  width: 100%;
+  background: #442D4B;
+  border: 1px solid white;
+  margin: 7px 0 15px;
+  color: white;
+  padding: 0 5px;
+  font-size: 19px;
+  font-family: inherit;
+}
+.add_movie_form input{
+  height: 40px;
+}
+button{
+  background:#FFCB59;
+  width:100px;
+  display: block;
+  height: 40px;
+  color: white;
+  margin: 0 auto 20px;
+}
+footer{
+  background-color: #000000;
+  padding: 30px;
+}
+.icons{
+  width: 50px;
+}
+footer a{
+  padding: 10px;
+}
+
+
+section{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.category{
+    margin-bottom: 40px;
+}
+.categoryName {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.details {
+    width: 180px;
+    /* margin: 0 auto; */
+}
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.stars .star {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+}
+
+.star-full {
+    background-image: url("../images/star-full.png");
+}
+
+.star-half {
+    background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+    background-image: url("../images/star-empty.png");
+}
